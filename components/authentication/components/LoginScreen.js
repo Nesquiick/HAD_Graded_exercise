@@ -13,10 +13,10 @@ const LoginScreen = (props) => {
         "Authorization": "Basic " + Base64.encode(user_email + ":" + user_password)
       }
     })
-    .then(response => response.text())
+    //.then(response => response.text())
     .then(response => {
       if (response.ok == false) {
-        throw new Error("HTTP Code " + response.status + " - " + response);
+        throw new Error("HTTP Code " + response.status + " - " + JSON.stringify(response.json()));
       }
       return response;
     })
