@@ -1,5 +1,5 @@
 # HAD_Graded_exercise
-*** By Loreleï NOIRAUD ***
+* By Loreleï NOIRAUD *
 
 Unfortunately, I didn't had the time to implement this part of the project.
 I just tried to create a new user an log them in but it doesn't word.
